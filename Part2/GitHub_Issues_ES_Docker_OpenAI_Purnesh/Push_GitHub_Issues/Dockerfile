@@ -1,0 +1,1 @@
+FROM purnesh11/elasticsearch_vector:latest
