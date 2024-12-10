@@ -53,9 +53,9 @@ app = Flask(__name__)
 # Handles CORS (cross-origin resource sharing)
 CORS(app)
 from google.oauth2 import service_account
-credentials = service_account.Credentials.from_service_account_file("./carbide-eye-441922-v3-bedd375e7779.json")
+credentials = service_account.Credentials.from_service_account_file("KEY")
 # Initlize Google cloud storage client
-client = storage.Client(credentials=credentials, project="carbide-eye-441922-v3")
+client = storage.Client(credentials=credentials, project="KEY")
 
 
 # Add response headers to accept all types of  requests
